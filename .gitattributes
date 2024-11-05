@@ -1,2 +1,23 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Password Strength Analyzer 🔒
+**By George Mk (GitHub: @CadGoose)**
+
+## Overview
+The **Password Strength Analyzer** is a Python-based tool designed to assess the strength of a password and provide feedback to help improve its security. With the growing risk of online attacks, this tool can help users create safer passwords by flagging weak patterns and avoiding common vulnerabilities. 
+
+This analyzer checks passwords against common security criteria (length, complexity, and common patterns) and gives an **estimated time to crack** based on current cracking capabilities. It even simulates testing the password against known password-cracking databases, helping users better understand real-world security practices.
+
+## Features
+- **Strength Analysis**: Assesses password strength as Weak, Moderate, or Strong.
+- **Time-to-Crack Estimate**: Calculates how long it would take to crack the password with brute-force techniques.
+- **Detailed Feedback**: Provides actionable feedback if the password doesn't meet security best practices.
+- **Common Password Check**: Tests the password against a list of known, commonly-used weak passwords to avoid easy compromises.
+
+## Usage
+1. Clone or download the repository.
+2. Run the script in a Python environment.
+3. Enter a password when prompted, and receive detailed feedback and strength evaluation.
+
+Example usage:
+```bash
+$ python password_strength_analyzer.py
+Enter a password to test its strength: MySecurePass123!
